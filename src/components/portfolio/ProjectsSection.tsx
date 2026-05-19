@@ -102,7 +102,7 @@ function ProjectCard({
       style={{ top: `${96 + index * 28}px` }}
     >
       <motion.div
-        style={{ scale, transformOrigin: "top center" }}
+        style={{ scale, transformOrigin: "top center", backgroundColor: "#0C0C0C" }}
         className="rounded-[40px] sm:rounded-[50px] md:rounded-[60px] border-2 border-[#D7E2EA] p-4 sm:p-6 md:p-8 h-full flex flex-col"
       >
         {/* Top row */}
