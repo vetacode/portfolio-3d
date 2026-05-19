@@ -4,6 +4,7 @@ import { MarqueeSection } from "../components/portfolio/MarqueeSection";
 import { AboutSection } from "../components/portfolio/AboutSection";
 import { ServicesSection } from "../components/portfolio/ServicesSection";
 import { ProjectsSection } from "../components/portfolio/ProjectsSection";
+import { FooterSection } from "../components/portfolio/FooterSection";
 
 export const Route = createFileRoute("/")({
   component: HomePage,
@@ -17,6 +18,7 @@ function HomePage() {
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />
+      <FooterSection />
     </main>
   );
 }
