@@ -9,7 +9,7 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="relative min-h-screen flex flex-col items-center justify-center px-5 sm:px-8 md:px-10 py-20"
+      className="relative min-h-screen flex flex-col items-center justify-center px-6 sm:px-12 md:px-16 lg:px-20 py-20 sm:py-24 md:py-28"
       style={{ background: "#0C0C0C" }}
     >
       {/* Decorative 3D images */}
