@@ -31,7 +31,7 @@ const SERVICES = [
 export function ServicesSection() {
   return (
     <section
-      className="rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] px-5 sm:px-8 md:px-10 py-20 sm:py-24 md:py-32 relative z-[1]"
+      className="rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] px-6 sm:px-12 md:px-16 lg:px-20 py-20 sm:py-24 md:py-32 relative z-[1]"
       style={{ background: "#FFFFFF", color: "#0C0C0C" }}
     >
       <h2
