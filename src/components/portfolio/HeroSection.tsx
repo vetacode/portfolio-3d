@@ -6,11 +6,13 @@ const NAV = ["About", "Price", "Projects", "Contact"];
 
 export function HeroSection() {
   return (
-    <section
-      className="relative h-screen flex flex-col"
-      style={{ overflowX: "clip" }}
-    >
-      <FadeIn as="nav" delay={0} y={-20} className="px-6 sm:px-12 md:px-16 lg:px-20 pt-6 sm:pt-8 md:pt-10">
+    <section className="relative h-screen flex flex-col" style={{ overflowX: "clip" }}>
+      <FadeIn
+        as="nav"
+        delay={0}
+        y={-20}
+        className="px-6 sm:px-12 md:px-16 lg:px-20 pt-6 sm:pt-8 md:pt-10"
+      >
         <ul className="flex items-center justify-between">
           {NAV.map((item) => (
             <li key={item}>
@@ -29,7 +31,7 @@ export function HeroSection() {
         <div className="overflow-hidden mt-6 sm:mt-4 md:-mt-5">
           <FadeIn delay={0.15} y={40}>
             <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw]">
-              Hi, i&apos;m jack
+              Hi, i&apos;m FIQRIE
             </h1>
           </FadeIn>
         </div>
@@ -55,7 +57,7 @@ export function HeroSection() {
         <div className="flex justify-between items-end pb-7 sm:pb-8 md:pb-10 relative z-20">
           <FadeIn delay={0.35} y={20}>
             <p
-              className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[160px] sm:max-w-[220px] md:max-w-[260px]"
+              className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-40 sm:max-w-55 md:max-w-65"
               style={{ fontSize: "clamp(0.75rem, 1.4vw, 1.5rem)" }}
             >
               a 3d creator driven by crafting striking and unforgettable projects
