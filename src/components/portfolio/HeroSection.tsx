@@ -10,7 +10,7 @@ export function HeroSection() {
       className="relative h-screen flex flex-col"
       style={{ overflowX: "clip" }}
     >
-      <FadeIn as="nav" delay={0} y={-20} className="px-6 md:px-10 pt-6 md:pt-8">
+      <FadeIn as="nav" delay={0} y={-20} className="px-6 sm:px-12 md:px-16 lg:px-20 pt-6 sm:pt-8 md:pt-10">
         <ul className="flex items-center justify-between">
           {NAV.map((item) => (
             <li key={item}>
