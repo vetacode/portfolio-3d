@@ -48,7 +48,8 @@ export function ServicesSection() {
               className="flex items-start gap-6 sm:gap-10 md:gap-14 py-8 sm:py-10 md:py-12"
               style={{
                 borderTop: "1px solid rgba(12, 12, 12, 0.15)",
-                borderBottom: i === SERVICES.length - 1 ? "1px solid rgba(12, 12, 12, 0.15)" : "none",
+                borderBottom:
+                  i === SERVICES.length - 1 ? "1px solid rgba(12, 12, 12, 0.15)" : "none",
               }}
             >
               <span

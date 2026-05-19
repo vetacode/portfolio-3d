@@ -1,7 +1,9 @@
 @import "tailwindcss" source(none);
 @source "../src";
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -10,10 +12,12 @@
   padding: 0;
 }
 
-html, body, #root {
-  background-color: #0C0C0C;
-  font-family: 'Kanit', sans-serif;
-  color: #D7E2EA;
+html,
+body,
+#root {
+  background-color: #0c0c0c;
+  font-family: "Kanit", sans-serif;
+  color: #d7e2ea;
 }
 
 body {
@@ -21,7 +25,7 @@ body {
 }
 
 .hero-heading {
-  background: linear-gradient(180deg, #646973 0%, #BBCCD7 100%);
+  background: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
