@@ -25,7 +25,7 @@ export function HeroSection() {
         </ul>
       </FadeIn>
 
-      <div className="flex-1 flex flex-col justify-between px-6 md:px-10 relative">
+      <div className="flex-1 flex flex-col justify-between px-6 sm:px-12 md:px-16 lg:px-20 relative">
         <div className="overflow-hidden mt-6 sm:mt-4 md:-mt-5">
           <FadeIn delay={0.15} y={40}>
             <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw]">
