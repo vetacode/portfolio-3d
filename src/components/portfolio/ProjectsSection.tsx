@@ -49,7 +49,7 @@ export function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="relative rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] -mt-10 sm:-mt-12 md:-mt-14 z-10 px-5 sm:px-8 md:px-10 pt-20 sm:pt-24 md:pt-32 pb-20"
+      className="relative rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] -mt-10 sm:-mt-12 md:-mt-14 z-10 px-6 sm:px-12 md:px-16 lg:px-20 pt-20 sm:pt-24 md:pt-32 pb-10"
       style={{ background: "#0C0C0C" }}
     >
       <FadeIn>
