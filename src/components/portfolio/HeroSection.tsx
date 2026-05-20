@@ -30,7 +30,7 @@ export function HeroSection() {
       <div className="flex-1 flex flex-col justify-between px-6 sm:px-12 md:px-16 lg:px-20 relative">
         <div className="overflow-hidden mt-6 sm:mt-4 md:-mt-5">
           <FadeIn delay={0.15} y={40}>
-            <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw]">
+            <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-[14vw] sm:text-[15vw] md:text-[16vw] lg:text-[15.5vw]">
               Hi, i&apos;m FIQRIE
             </h1>
           </FadeIn>
@@ -45,6 +45,18 @@ export function HeroSection() {
           style={{}}
         >
           <FadeIn delay={0.6} y={30}>
+            {/* <img
+              src="https://dongkrakusaha.com/gambarbebas/1526720260519-095220_Fiqrie-Head-3D.webp"
+              alt="Jack portrait"
+              className="w-full h-auto select-none"
+              draggable={false}
+            /> */}
+            {/* <img
+              src="https://carisolusi.biz.id/gambarbebas/20260131-111204_maskot.webp"
+              alt="Jack portrait"
+              className="w-full h-auto select-none"
+              draggable={false}
+            /> */}
             <img
               src="https://shrug-person-78902957.figma.site/_components/v2/d24c01ad3a56fc65e942a1f501eb73db42d7cf9a/Rectangle_40443.81459862.png"
               alt="Jack portrait"
